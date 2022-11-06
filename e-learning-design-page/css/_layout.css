@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
+  padding: 2rem;
 }
 
 .bold-heading {
@@ -16,7 +16,7 @@
 }
 
 .section-hero {
-  padding: 1rem;
+  padding: 2rem;
 
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 .section-features {
-  padding: 1rem;
+  padding: 2rem;
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
