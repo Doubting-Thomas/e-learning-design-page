@@ -22,8 +22,17 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  transition: all 0.3s;
 }
 
+.hero-text-box {
+  animation: moveInLeft 1s;
+}
+
+.hero-image-box {
+  animation: moveInRight 1s;
+  animation-delay: 0.2s;
+}
 .section-features {
   padding: 2rem;
 
@@ -31,6 +40,8 @@
   grid-template-columns: repeat(2, 1fr);
   column-gap: 2rem;
   row-gap: 4rem;
+  transition: all 0.3s;
+  animation: moveInTop 1s;
 }
 
 .advert-feature {
