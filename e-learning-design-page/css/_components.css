@@ -1,0 +1,29 @@
+.btn {
+  border: none;
+  padding: 1.5rem 2.5rem;
+  border-radius: 2.5rem;
+  font-family: inherit;
+  color: var(--white);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn:active {
+  transform: scale(0);
+}
+
+.btn--header {
+  background-color: var(--blue);
+}
+
+.btn--hero {
+  background-image: var(--primary-gradient);
+}
+
+.btn--footer {
+  background-image: var(--secondary-gradient);
+}
